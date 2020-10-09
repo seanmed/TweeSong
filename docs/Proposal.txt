@@ -1,0 +1,17 @@
+Project Assignment #1 - Pitch 
+
+Idea #1 - Podcast Recommendation
+An app that gives podcast recommendations to users based on the people that they follow on Twitter. People can find podcast episodes a twitter user appeared in or mentioned in their tweet. People can interact with other users for recommendations, comment on posts, connect with friends and see their activity on the app. 
+Useful APIs 
+Apple Podcast 
+https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
+Twitter API 
+
+Idea #2 - Eat This Not That 
+Type in something unhealthy you’re craving and it gives healthy alternatives with online recipes and places around you where you can buy the ingredients. Also could incorporate diet friendly items for people who follow keto, etc. This can utilize an API like https://www.myfitnesspal.com/api to find the macros for both the unhealthy food and the healthy food, lots of foods can be found by scanning the barcode of products or can simply be searched in the toolbar. We can calculate the difference in macros between the foods, how much you would be saving or gaining in calories, carbs, fat, protein and potentially micronutrients. A lot of dieting/tracking apps like myfitnesspal or chronometer do not give the proper macro/micronutrient ratios for people who are running diets like keto or are vegan/vegetarian. For people who are running a general diet, these apps take too broad of an approach, one based solely on TDEE. We can include functionality for the app to adjust macros for clients weekly based on the client's input of sleep, avg weight loss or weight gain per week, and actual adherence to the macros set a week prior (include more carbs rather than fats or vice versa if there is a greater propensity for the client to eat more of one macros rather than the other). Can also include functionality for sports performance, just general weight loss/weight gain or for something more specific. In addition to the idea of converting an unhealthy food to a healthy food we also thought of including a wine and food pairing that will  match specific foods with wines depending on their taste in order to give the user the best combination for their meal. Plus, get the geolocation of the user and find near alcohol stores where he/she can buy the wine it was paired with his meal
+Useful APIs
+https://www.myfitnesspal.com/api
+ https://spoonacular.com/food-api
+
+Idea #3 - Crowd Scanning
+	A web-application that would be able to recognize areas where there are large crowds by asking users to send real-time updates from areas they are currently located in about the amount of people in the same area. This is similar to the technology used by Waze and Google maps, where people are able to report live updates about the conditions of their environments. Users who want to go on walks would then be able to assess which areas have less people so that they feel more comfortable about being safe from exposure to COVID. It will also help people adhere to social distancing and mask-wearing. The app can also incorporate machine learning to somehow detect the amount of people wearing masks. Potential APIs are Analyze Boston API, Google Maps and Waze, as well as possibly some COVID related APIs. 
