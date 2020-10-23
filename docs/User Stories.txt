@@ -1,0 +1,22 @@
+﻿Project Assignment #2 - User Stories 
+Team 20 
+
+
+
+
+* As a user when I want to login and create an account, I will be prompted to link my social media accounts in order to retrieve my following data and get better podcast recommendations. 
+
+
+* As a logged-in user with my twitter account connected, I want to filter all of my twitter following-based podcast recommendations by genre so that I can find more relevant content.
+
+
+* As a logged-in user, I want to be able to subscribe to a podcast channel so that I can stay up to date with the latest content. 
+
+
+* As a logged-in user, I want to be able to search podcasts based on keywords (such as celebrity names) and also save and download podcasts to a playlist so that I can listen to them later without using the internet. 
+
+
+* As a user, I want to be able to change my username, password and profile picture image. Further, I want to be able to add friends who are also using the web app. 
+
+
+* As a user I want to be able to see what podcasts my friends are listening to and be able to share the web app with people who are not yet on the web app.
