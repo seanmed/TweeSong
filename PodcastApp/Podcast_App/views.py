@@ -12,10 +12,13 @@ def contact(request):
         form = SearchSpotifyAPIForm(request.POST)
         if form.is_valid():
             twitter_username= form.cleaned_data['twitter_username']
+            r=spotify.search(twitter_username, search_type="artist")
 
 
 
-        return HttpResponse(spotify.search(twitter_username, search_type="artist"))
+
+
+        return HttpResponse(r.items())
 
 
     form= SearchSpotifyAPIForm()
