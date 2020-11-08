@@ -84,7 +84,7 @@ class SpotifyAPI(object):
         base_url= "https://api.spotify.com/v1"
         end_point=f"{base_url}/v1/episodes"
     
-    def search(self, query, search_type='artist' ): # type
+    def search(self, query, search_type='track' ): # type
         access_token = self.get_access_token()
         headers = {
             "Authorization": f"Bearer {access_token}"
@@ -101,17 +101,16 @@ class SpotifyAPI(object):
 # In[ ]:
 
 
-spotify = SpotifyAPI(client_id, client_secret)
-
-
-# In[ ]:
-
-
 
 
 
 # In[ ]:
 
 
-spotify.get_episodes("6lrt7LngdzxaQtLIXMraSR")
+
+
+
+# In[ ]:
+
+
 
