@@ -113,8 +113,8 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
-SOCIAL_AUTH_TWITTER_KEY = 'Yx2jYekdVXdpc3ZoPAxwJIBoB'
-SOCIAL_AUTH_TWITTER_SECRET = 'BO74ZhTkQQlpwxkN8bNsKTN6FW5jNC1gAsId0lZLvf9KnmU5i4'
+SOCIAL_AUTH_TWITTER_KEY = 'random key'
+SOCIAL_AUTH_TWITTER_SECRET = 'random secret'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
