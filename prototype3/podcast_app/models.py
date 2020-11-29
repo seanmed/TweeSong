@@ -7,10 +7,8 @@ class TwitterUser(models.Model):
     def __str__(self):
         return self.twitter_user
 
-class Podcast(models.Model):
-    user= models.ForeignKey('podcastapp.TwitterUser', on_delete=models.CASCADE)
-    podcast= models.CharField(max_length=100)
+class Track(models.Model):
+    user= models.ForeignKey('podcast_app.TwitterUser', on_delete=models.CASCADE)
+    track= models.URLField(max_length=100)
     def __str__(self):
-        return self.podcast
-
-
+        return self.track
